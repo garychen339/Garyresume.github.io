@@ -377,10 +377,11 @@ section a:hover::after {
 
 /**************   Contact Page   *****************/
 /* Make contact page sections full width */
-body > section:has(.one-col) {
+.contact-page .contact-form-section {
   display: block !important;
   width: 100% !important;
-  margin-right: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .one-col {
