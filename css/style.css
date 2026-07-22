@@ -123,6 +123,8 @@ header img:hover {
   margin-top: 15px;
   margin-bottom: 25px;
   font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .address a {
@@ -131,6 +133,7 @@ header img:hover {
   font-style: normal;
   font-weight: 600;
   transition: all 0.3s ease;
+  display: block;
 }
 
 .address a:hover {
@@ -368,6 +371,7 @@ label {
   color: #333;
   margin-bottom: 8px;
   display: block;
+  text-align: center;
 }
 
 input {
